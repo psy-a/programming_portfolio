@@ -1,45 +1,48 @@
 body {
-    background-color: rgba(0, 0, 0, .99);
+  background-color: rgba(0, 0, 0, 0.99);
 }
 h1 {
-    color: rgba(255, 255, 255, .99);
-    font-size: 1000%;
+  color: rgba(255, 255, 255, 0.99);
+  font-size: 1000%;
 }
 .salute:hover .hello {
-    display: none;
+  display: none;
 }
 .salute:hover .about::before {
-    content: "About";
+  content: "About";
 }
-.ablink:link, .wolink:link, .colink:link {
-    text-decoration: none;
+.ablink:link,
+.wolink:link,
+.colink:link {
+  text-decoration: none;
 }
 .me:hover .iam {
-    display: none;
+  display: none;
 }
 .me:hover .work::before {
-    content: "Work";
+  content: "Work";
 }
 .name:hover .aspin {
-    display: none;
+  display: none;
 }
 .name:hover .contact::before {
-    content: "Contact";
+  content: "Contact";
 }
-.me, .name {
-    color: rgb(255, 0, 0);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.me,
+.name {
+  color: rgb(255, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .home {
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    margin: auto;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
 }
 #psy {
-    width: 750px;
-    height: 750px;
-    padding-left: 70px;
+  width: 750px;
+  height: 750px;
+  padding-left: 70px;
 }
