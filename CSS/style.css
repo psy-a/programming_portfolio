@@ -82,3 +82,34 @@ h1 {
 .dairyfarm:hover {
     box-shadow: 0.5px 0.5px 0.5px 1.5px white;
 }
+li {
+    color: rgb(255, 0, 0);
+    font-size: 180%;
+}
+li:hover {
+    color: rgba(255, 255, 255, 0.99);
+}
+#email:link,
+#fb:link,
+#twitter:link,
+#ig:link {
+    text-decoration: none;
+}
+#email:visited,
+#fb:visited,
+#twitter:visited,
+#ig:visited {
+    text-decoration: none;
+}
+#email, #fb, #ig, #twitter {
+    margin: 10px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    padding-top: 5%;
+}
