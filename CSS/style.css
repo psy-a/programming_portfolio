@@ -41,7 +41,8 @@ h1 {
   justify-content: space-around;
   align-items: center;
 }
-#psy, #psy2 {
+#psy,
+#psy2 {
   width: 750px;
   height: 750px;
 }
@@ -55,6 +56,10 @@ h1 {
     font-size: 150%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.image, .picture {
+.image,
+.picture {
     padding-left: 30px;
+}
+.about {
+    padding-top: 5%;
 }
