@@ -63,3 +63,22 @@ h1 {
 .about {
     padding-top: 5%;
 }
+.work {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding-top: 5%;
+}
+.bandlink:link,
+.kitchenlink:link,
+.farmlink:link {
+    text-decoration: none;
+}
+.favband:hover,
+.anitaskitchen:hover,
+.dairyfarm:hover {
+    box-shadow: 0.5px 0.5px 0.5px 1.5px white;
+}
