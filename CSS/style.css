@@ -37,14 +37,7 @@ p {
   color: rgb(255, 0, 0);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.about {
-  display: flex;
-  flex-direction: row;
-  width: 70%;
-  margin: auto;
-  justify-content: space-around;
-  align-items: center;
-}
+
 #psy,
 #psy2 {
   width: 750px;
@@ -146,4 +139,18 @@ header {
   position: relative;
   right: 17%;
   border: black solid 1px;
+}
+.aboutpage {
+  background-image: url(../Images/psyback4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.abouttext {
+  width: 30%;
+  height: 880px;
+  margin: auto;
+  position: relative;
+  right: 10%;
+  padding-top: 2.5%;
 }
