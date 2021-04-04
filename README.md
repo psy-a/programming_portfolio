@@ -1,4 +1,4 @@
-# PSY Dairy Farm
+# PSY Programming Portfolio
 #### This is my programming portfolio website done on my week 4 as an Independent Project at Moringa School, 4th April 2021.
 #### By **Aspin Isoe**
 ## Description
