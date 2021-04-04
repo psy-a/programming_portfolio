@@ -31,9 +31,9 @@ h1 {
 .me,
 .name {
   color: rgb(255, 0, 0);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-.home {
+.home, .about {
   display: flex;
   flex-direction: row;
   width: 70%;
@@ -41,8 +41,20 @@ h1 {
   justify-content: space-around;
   align-items: center;
 }
-#psy {
+#psy, #psy2 {
   width: 750px;
   height: 750px;
-  padding-left: 70px;
+}
+#title {
+    font-size: 420%;
+    color: rgb(255, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#words {
+    color: rgba(255, 255, 255, 0.99);
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.image, .picture {
+    padding-left: 30px;
 }
